@@ -76,7 +76,7 @@ const handleSubmit = async (e) => {
   loading(messageDiv);
 
   //Request pra API do Bot
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://chatbot-eebe.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
